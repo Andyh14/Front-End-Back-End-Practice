@@ -1,0 +1,66 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.Information{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: cetner;
+  align-items: center;
+}
+
+
+.Information input{
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 5px;
+}
+
+/* Button "Add User" specifics */
+button{
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+/* This makes it so when you hover
+ over button mounse turns into pointer */
+button:hover{
+  cursor: pointer;
+}
+
+.users {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.user {
+  width: 700px;
+  height: 210px;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+
+}
+
+.user h3 {
+  margin: 20px;
+}
+
+.search{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: cetner;
+  align-items: center;
+}
